@@ -1,4 +1,4 @@
-from views import print_current
+from views.board import print_current
 from models import Board
 
 def main():
