@@ -9,9 +9,9 @@ class CellValue(Enum):
     """
     Values of each cell.
     """
-    BLANK = {"id_":0, "type_": "blank", "view": " "}
-    NOUGHT = {"id_":1, "type_": "nought", "view": "O"}
-    CROSS =  {"id_":2, "type_": "cross", "view": "X"}
+    BLANK = {"id_": 0, "type_": "blank", "view": " "}
+    NOUGHT = {"id_": 1, "type_": "nought", "view": "O"}
+    CROSS = {"id_": 2, "type_": "cross", "view": "X"}
 
     @staticmethod
     def from_number(num: int) -> CellValue:
